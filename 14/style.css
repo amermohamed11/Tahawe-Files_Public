@@ -1,0 +1,48 @@
+@font-face {
+  font-family: DigitalNumbers-Regular;
+  src: url(images/DigitalNumbers-Regular.ttf);
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "DigitalNumbers-Regular", "Courier New", Courier, monospace;
+  background: linear-gradient(#e8f0f7 50%, #4b5df9 50%);
+}
+.container {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 8px;
+  transform: translate(-50%, -50%);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.25);
+  display: grid;
+  place-items: center;
+}
+
+.circular-progress {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  background: #ffa500;
+  clip-path: circle();
+  display: grid;
+  place-items: center;
+}
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 84%;
+  width: 84%;
+  background: #fff;
+  clip-path: circle();
+}
+.value-container {
+  position: absolute;
+  font-weight: bold;
+  font-size: 50px;
+}
