@@ -1,0 +1,93 @@
+:root {
+  --color-bg-dark: #192a33;
+  --color-bg-light: #1f3640;
+  --color-gray: #a8bec9;
+  --color-gray-dark: #7a8991;
+  --color-yellow: #f2b238;
+  --color-yellow-dark: #cd8d16;
+  --color-blue: #30c4be;
+  --color-blue-dark: #128c89;
+  --color-green: #00b800;
+  --color-green-dark: #007700;
+  --color-red: #dc143c;
+  --color-red-dark: #810d25;
+  --color-yellow: #dddd00;
+  --color-yellow-dark: #999900;
+  --color-whiteblue: #0dcaf0;
+  --color-whiteblue-dark: #077f97;
+  --color-light: #e9ecf0;
+  --color-light-dark: #d7d7d8ed;
+  --color-dark: #30363b;
+  --color-dark-dark: #000000;
+  --color-link: #0d6efd;
+  --color-link-dark: #000000;
+  --shadow-y: 6px;
+}
+.btn {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  padding: 12px 25px;
+  text-transform: capitalize;
+  cursor: pointer;
+  border-radius: 10px;
+  display: inline-block;
+  margin-bottom: 6px;
+  transition: all 0.1s;
+}
+.btn-gray {
+  color: white;
+  background: var(--color-gray);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-gray-dark);
+}
+.btn-blue {
+  color: white;
+  background: var(--color-blue);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-blue-dark);
+}
+.btn-green {
+  color: white;
+  background: var(--color-green);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-green-dark);
+}
+.btn-red {
+  color: white;
+  background: var(--color-red);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-red-dark);
+}
+.btn-yellow {
+  color: white;
+  background: var(--color-yellow);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-yellow-dark);
+}
+.btn-whiteblue {
+  color: white;
+  background: var(--color-whiteblue);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-whiteblue-dark);
+}
+.btn-light {
+  color: #000;
+  background: var(--color-light);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-light-dark);
+}
+.btn-dark {
+  color: white;
+  background: var(--color-dark);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-dark-dark);
+}
+.btn-link {
+  color: var(--color-link);
+  background: var(--color-light);
+  box-shadow: 0 var(--shadow-y) 0 var(--color-light-dark);
+  text-decoration: underline;
+}
+
+.btn:hover {
+  --shadow-y: 8px;
+  transform: translateY(-2px);
+}
+
+.btn:active {
+  --shadow-y: 4px;
+  transform: translateY(2px);
+}
