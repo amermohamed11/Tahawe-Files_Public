@@ -1,0 +1,37 @@
+[{
+  "_id": {
+    "$oid": "62471ff894d61efef2400105"
+  },
+  "name": "T-Shirt",
+  "price": 50,
+  "category": "clothes",
+  "discription": "summer t-shirt",
+  "image": "s-shirt.jpg"
+},{
+  "_id": {
+    "$oid": "6247242194d61efef2400108"
+  },
+  "name": "Phone",
+  "price": 200,
+  "discription": "android phone",
+  "category": "phones",
+  "image": "phone.jpg"
+},{
+  "_id": {
+    "$oid": "6247250394d61efef240010a"
+  },
+  "name": "Tablet",
+  "price": 250,
+  "discription": "android tablet",
+  "category": "tablets",
+  "image": "tablet.jpeg"
+},{
+  "_id": {
+    "$oid": "6247257f94d61efef240010b"
+  },
+  "name": "laptop",
+  "price": 500,
+  "discription": "Windows laptop",
+  "category": "laptops",
+  "image": "laptop.jpg"
+}]
